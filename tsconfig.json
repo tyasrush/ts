@@ -1,11 +1,15 @@
 {
-    "compilerOptions": {
-        "target": "ES2020",
-        "module": "CommonJS",
-        "outDir": "./dist"
-    },
-    "files": [
-        "main.ts",
-        "entity.ts"
-    ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true
+  }
 }

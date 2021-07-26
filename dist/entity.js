@@ -12,3 +12,4 @@ const userParam = {
 };
 console.log(`user class \n\nid : ${user.id}\nname : ${user.name}\naddress: ${user.address}`);
 console.log(`user param \n\nname : ${userParam.name}\naddress: ${userParam.address}`);
+//# sourceMappingURL=entity.js.map
