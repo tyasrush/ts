@@ -9,9 +9,9 @@ function Post({ data }) {
   return <div><h1>Post ID: {id}</h1></div>
 }
 
-export async function getServerSideProps(context) {
-  console.log("getServerSideProps called!")
-  return { props: { data: 3 }}
+
+export function getStaticPaths() {
+	return { props: {data: 2}}
 }
 
 export default Post
